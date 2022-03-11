@@ -75,7 +75,6 @@ body {
   letter-spacing: 0.06rem;
   border: 1px solid #999;
   border-radius: 5px;
-  background-image: url(images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: 95%;
 }
@@ -91,7 +90,7 @@ body {
 }
 
 .error-msg {
-  /* display: none; */
+  display: none;
   margin: -0.7rem 0rem 1rem auto;
   font-size: 0.75rem;
   color: hsl(0, 100%, 74%) ;
