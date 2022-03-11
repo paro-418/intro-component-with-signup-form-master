@@ -1,0 +1,42 @@
+@media screen and (max-width:376px){
+   body{
+       flex-direction: column;
+       background-image: url("images/bg-intro-mobile.png");
+   }
+
+   .main-header{
+       font-size: 1.6rem;
+   }
+
+    .header-1{
+        width: 88%;
+        margin: 6rem auto 0 auto;
+        text-align:center;
+    }
+
+    .description{
+        margin-top: 2.1rem;
+    }
+
+    .section-2{
+        margin-top: 4rem;
+    }
+
+    .section-2 div{
+        margin: 0 auto 0 auto; 
+    }
+    .form{
+        margin-top: 0.1rem;
+        padding: 1.1rem 1.4rem 0 1.4rem;
+        text-align: center;
+        margin:0 0 5rem 0;
+    }
+    .form input{
+        margin: 0.5rem 0;
+        border-radius: 3px;
+        padding: 1.1rem 1rem;
+    }
+    .error-msg{
+        margin: -0.5rem 0 1rem auto;
+    }
+}
