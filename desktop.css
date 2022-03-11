@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+.section-1 {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.header-1 {
+  width: 69%;
+  margin: 0 0 0 6rem;
+}
+
+.main-header {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.description {
+  margin: 2rem 0 0 0;
+  font-weight: 500;
+  color: rgb(226, 226, 226);
+  line-height: 1.6;
+}
+
+.section-2 {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-2 div {
+  width: 76%;
+}
+.price-button {
+  width: 100%;
+  padding: 1.2rem 0;
+  margin: 0 0 1.9rem 0;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.16);
+}
+
+.form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.8rem 1.8rem 2.8rem;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 0 rgba(0, 0, 0, 0.16);
+}
+
+.form input {
+  padding: 1.1rem 2.5rem;
+  margin: 0.9rem 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.06rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-image: url(images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+
+.form input:placeholder-shown {
+  color: #000;
+  font-weight: 600;
+}
+.form input:focus {
+  outline: none;
+  border: 1.5px solid hsl(249, 10%, 26%);
+}
+
+.error-msg {
+  /* display: none; */
+  margin: -0.7rem 0rem 1rem auto;
+  font-size: 0.75rem;
+  color: hsl(0, 100%, 74%) ;
+  font-style: italic;
+}
+
+.form-button {
+  padding: 1.1rem;
+  text-transform: uppercase;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.1rem hsl(154, 58%, 45%);
+  margin-top: 0.3rem;
+}
+
+.form-button:hover{
+    background-color: hsla(154, 59%, 51%, 0.719);
+    cursor: pointer;
+}
+
+.form footer {
+  width: 77%;
+  font-weight: 600;
+  color: rgba(153, 153, 153, 0.603);
+  margin: 1rem auto;
+  font-size: 0.65rem;
+}
+
+footer strong {
+  color: hsl(0, 100%, 74%);
+}
