@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/html-css-js-fu41vXmZL
+- Live Site URL: https://paro-810.github.io/intro-component-with-signup-form-master/
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 - Desktop-first workflow
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/paro-810
+- Twitter - https://www.twitter.com/@praveen2552002

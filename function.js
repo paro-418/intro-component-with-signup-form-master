@@ -78,4 +78,12 @@ button.addEventListener("click", (e) => {
       storeSpans[i].style.display = "none";
     }
   }
+
+  if(!ValidateEmail(storeInputs[2].value)){
+    storeSpans[2].style.display = "block";
+    return;
+  } else {
+    storeSpans[i].style.display ="none";
+    return;
+  }
 });
